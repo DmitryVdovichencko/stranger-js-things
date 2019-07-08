@@ -1,4 +1,4 @@
-import '../css/app.css';
+import '../css/app.scss';
 import particlesJS from 'particles.js'
 import "../assets/particles.json";
 

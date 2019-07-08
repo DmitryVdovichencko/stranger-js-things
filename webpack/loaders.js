@@ -24,7 +24,7 @@ const ESLintLoader = {
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const CSSLoader = {
-  test: /\.css$/,
+  test: /\.scss$/,
   exclude: /node_modules/,
   use: [
     {
@@ -37,6 +37,7 @@ const CSSLoader = {
       loader: 'css-loader',
       options: {importLoaders: 1},
     },
+    "sass-loader",
     {
       loader: 'postcss-loader',
       options: {

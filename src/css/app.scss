@@ -76,15 +76,28 @@ stroke-linejoin: round;
 }
 .chapter{
 	display:inline-flex;
+	flex-flow: column nowrap;
 	padding:10px;
 	margin:10px;
-	
+	text-transform: uppercase;
 	width:auto;
+	transition:all 0.5s ease;
+	&:hover {
+		color:#e4262d;
+		.chapter__header{
+				border-bottom:solid 3px #e4262d;
+			}
+
+	}
 }
 .chapter__header{
 	border-bottom:solid 3px white;
+	padding-bottom: 10px;
+	transition:all 0.5s ease;
 }
 .chapter__name{
+	margin-top: 15px;
 	display: block;
 }
+
 

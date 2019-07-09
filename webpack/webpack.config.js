@@ -13,6 +13,7 @@ module.exports = {
       loaders.JSONLoader,
     ]
   },
+
   output: {
     path: path.resolve(__dirname, "../"),
     filename: "js/[name].bundle.js"

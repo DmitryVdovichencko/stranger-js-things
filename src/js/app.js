@@ -1,5 +1,7 @@
 import '../css/app.scss';
-import particlesJS from 'particles.js'
+import particlesJS from 'particles.js';
+import showdown from'showdown';
+
 import "../assets/particles.json";
 
 window.particlesJS.load('particles-js', 'particles.json', function() {

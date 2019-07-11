@@ -11,6 +11,7 @@ module.exports = {
       loaders.ESLintLoader,
       loaders.FontsLoader,
       loaders.JSONLoader,
+      loaders.StyleLoader,
     ]
   },
   mode: 'development',

@@ -74,10 +74,15 @@ const JSONLoader = {
         }
     ]
 };
+const StyleLoader = {
+            test: /\.css/,
+            loader: 'style-loader!css-loader'
+        };
 module.exports = {
   JSLoader: JSLoader,
   ESLintLoader: ESLintLoader,
   CSSLoader: CSSLoader,
   FontsLoader: FontsLoader,
   JSONLoader: JSONLoader,
+  StyleLoader: StyleLoader,
 };

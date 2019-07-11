@@ -25,10 +25,16 @@ fs.readdirSync(testFolder).forEach(file => {
 		<head>
 			<meta charset="UTF-8">
 			<title>${fileName}</title>
-			<link rel="stylesheet" href="main.bundle.css">
+			<link rel="stylesheet" href="../main.bundle.css">
 	
 		</head>
-		<body>${converter.makeHtml(text)}</body>
+		<body>
+			<article class = "post">
+				${converter.makeHtml(text)}
+			</article>
+			<script src="../js/main.bundle.js"></script>
+
+		</body>
 		</html>`;
 		
 		if (fs.existsSync(filePath)) {

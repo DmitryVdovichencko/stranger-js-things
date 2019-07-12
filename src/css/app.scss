@@ -32,6 +32,7 @@ body{
 	font-family: 'Benguiat', normal;
 	color: white;
 	background:black;
+	font-size:16px;
 	/*background-image: url('../img/pink_dust.png');*/
 }
 a,a:link, a:visited{
@@ -99,5 +100,14 @@ stroke-linejoin: round;
 	margin-top: 15px;
 	display: block;
 }
+.post{
+	padding:20px 20vw;
+	line-height: 1.5em;
+	h1{
+		font-size: 3em;
+		padding: 10px 0px;
+		border-bottom: solid 1px white;
+	}
 
+}
 

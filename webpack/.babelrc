@@ -3,7 +3,7 @@
     ["prismjs", {
         "languages": ["javascript", "css", "markup"],
         "plugins": ["line-numbers"],
-        "theme": "twilight",
+        "theme": "tomorrow",
         "css": true,
     }]
   ]
